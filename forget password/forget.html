@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget password</title>
+    <link rel="stylesheet" href="forget.css">
+</head>
+<body>
+    <div class="wrapper">
+         
+        <form action="">
+        <h2>
+            <label for="inputbox">Enter your details:</label>
+        </h2>
+            <div class="inputbox" id="inputbox">
+        <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+        </div>
+        <div>   
+                <label for="reset">Enter your username</label>
+                <input type="text" id="reset" required>
+        </div>     
+        <div>
+                <label for="password">Set your new password</label>
+                <input type="text" pattern="^[a-zA-Z0-9@._-]{3,20}$" name="" id="password" required>
+        </div>
+            <label for="submit" id="inputbox"></label>
+            <button id="submit">Send a link</button>
+            <p>Back to <a href="/Landing page/land.html">Homepage</a></p>
+        </form>
+       
+    </div>
+</body>
+</html>
